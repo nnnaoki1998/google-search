@@ -7,9 +7,9 @@ $ bundle install
 
 ## Custom Search JSON APIの使用に必要なkeyを設定
 1. jsonファイルのサンプルをコピー
-  ```
-  cp /app/resources/google-api-customsearch.json-sample /app/resources/google-api-customsearch.json
-  ```
+    ```
+    cp /app/resources/google-api-customsearch.json-sample /app/resources/google-api-customsearch.json
+    ```
 1. google-api-customsearch.jsonにAPIキー, サーチエンジンIDを設定
 
 ## 起動
