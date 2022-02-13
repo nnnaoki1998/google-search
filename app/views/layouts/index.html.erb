@@ -1,0 +1,22 @@
+<div id="main">
+<h2>Google検索</h2>
+<% if !@keyword.nil? && !@keyword.empty? %>
+  <%= "「#{@keyword}」の検索結果" %>
+<% end %>
+
+<%= form_tag('/', method: :get) do %>
+  <%= search_field_tag :keyword %>
+  <%= submit_tag "検索", name: nil %>
+<% end %>
+
+<% if !@items.empty? %>
+  <table border="1">
+    <% @items.each do |item| %>
+      <tr>
+        <td><%= item.title %></td>
+        <td><%= link_to(item.link, item.link) %></td>
+      </tr>
+    <% end %>
+  </table>
+<% end %>
+</div>
