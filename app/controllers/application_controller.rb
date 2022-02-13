@@ -1,7 +1,7 @@
 require "json"
 require 'google/apis/customsearch_v1'
 
-File.open("app/resouces/google-api-customsearch.json") do |j|
+File.open("app/resources/google-api-customsearch.json") do |j|
   data = JSON.load(j)
   API_KEY = data["API_KEY"]
   CSE_ID = data["CSE_ID"]
