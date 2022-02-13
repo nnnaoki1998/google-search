@@ -23,4 +23,4 @@ $ rails server
 1. 入力フォームに検索するキーワードを入力し検索ボタンをクリック
 
 ## 使用例
-![search-reqult](assets/images/search-result.png)
+![search-reqult](https://user-images.githubusercontent.com/55642144/153780445-0136b462-a6f0-44c0-a175-e4fc64c22432.png)
